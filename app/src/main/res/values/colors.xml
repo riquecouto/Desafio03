@@ -7,4 +7,7 @@
     <color name="teal_700">#FF018786</color>
     <color name="black">#FF000000</color>
     <color name="white">#FFFFFFFF</color>
+    <color name="marvelRed">#EA2427</color>
+    <color name="marvelRedSec">#BB1C1F</color>
+    <color name="loginBackground">#00162C</color>
 </resources>

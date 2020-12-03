@@ -1,3 +1,9 @@
 <resources>
     <string name="app_name">Desafio03</string>
+    <string name="welcome_marvel">Welcome to the Marvel HQ\'s</string>
+    <string name="prompt_email">Email</string>
+    <string name="prompt_password">Password</string>
+    <string name="action_log_in">LOG IN</string>
+    <string name="chkbox_remember">Remember</string>
+    <string name="create_account">Create account</string>
 </resources>
