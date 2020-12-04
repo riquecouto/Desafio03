@@ -18,6 +18,6 @@ class LoginActivity : AppCompatActivity() {
         }
     }
 
-    private fun callHome() = startActivity(Intent(this, HomeActivity::class.java))
+    private fun callHome() = startActivity(Intent(this, MainActivity::class.java))
     private fun callRegister() = startActivity(Intent(this, RegisterActivity::class.java))
 }

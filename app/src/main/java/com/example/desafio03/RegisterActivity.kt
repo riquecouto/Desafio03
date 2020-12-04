@@ -15,5 +15,5 @@ class RegisterActivity : AppCompatActivity() {
         }
     }
 
-    private fun callHome() = startActivity(Intent(this, HomeActivity::class.java))
+    private fun callHome() = startActivity(Intent(this, MainActivity::class.java))
 }
