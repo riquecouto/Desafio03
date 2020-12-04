@@ -6,4 +6,7 @@
     <string name="action_log_in">LOG IN</string>
     <string name="chkbox_remember">Remember</string>
     <string name="create_account">Create account</string>
+    <string name="prompt_name">Name</string>
+    <string name="action_save">SAVE</string>
+    <string name="dummy_comic">#100</string>
 </resources>

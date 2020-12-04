@@ -5,7 +5,18 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="@color/loginBackground"
-    tools:context=".AccountActivity">
+    tools:context=".RegisterActivity">
+
+    <com.google.android.material.appbar.AppBarLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <androidx.appcompat.widget.Toolbar
+            android:id="@+id/toolbar"
+            android:layout_width="match_parent"
+            android:layout_height="?attr/actionBarSize" />
+
+    </com.google.android.material.appbar.AppBarLayout>
 
     <LinearLayout
         android:id="@+id/aa"
@@ -23,6 +34,20 @@
             android:background="@drawable/round_login_body"
             android:orientation="vertical"
             android:paddingHorizontal="10dp">
+
+            <com.google.android.material.textfield.TextInputLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp">
+
+                <com.google.android.material.textfield.TextInputEditText
+                    android:id="@+id/edName"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@color/white"
+                    android:hint="@string/prompt_name"
+                    android:inputType="textPersonName" />
+            </com.google.android.material.textfield.TextInputLayout>
 
             <com.google.android.material.textfield.TextInputLayout
                 android:layout_width="match_parent"
@@ -54,28 +79,13 @@
                     android:selectAllOnFocus="true" />
             </com.google.android.material.textfield.TextInputLayout>
 
-            <CheckBox
-                android:id="@+id/chkbox_remember"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:text="@string/chkbox_remember"
-                android:textSize="20sp" />
-
             <Button
-                android:id="@+id/btn_login"
+                android:id="@+id/btn_save"
                 android:layout_width="match_parent"
                 android:layout_height="55dp"
-                android:layout_marginTop="20dp"
-                android:text="@string/action_log_in"
-                android:textSize="18sp" />
-
-            <TextView
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_marginVertical="7dp"
-                android:text="@string/create_account"
-                android:textAlignment="center"
-                android:textSize="20sp" />
+                android:layout_marginTop="35dp"
+                android:text="@string/action_save"
+                android:textSize="17sp" />
         </LinearLayout>
     </LinearLayout>
 
