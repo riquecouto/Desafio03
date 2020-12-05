@@ -8,7 +8,8 @@ import retrofit2.http.Query
 
 interface WebService {
 
-    @GET("comics?characters=1009610&limit=14&ts=1&apikey=6eb7e8896ec5850c52515a8a23ee97f0&hash=40a3aa568bb269dfad85ae0c4a297181")
+//    @GET("comics?characters=1009610&limit=14&ts=1&apikey=6eb7e8896ec5850c52515a8a23ee97f0&hash=40a3aa568bb269dfad85ae0c4a297181")
+    @GET("comics?formatType=comic&ts=1&limit=17&orderBy=-focDate&apikey=6eb7e8896ec5850c52515a8a23ee97f0&hash=40a3aa568bb269dfad85ae0c4a297181")
     suspend fun getComicsRepo(
         @Query("offset") offset: Int
     ): Comics

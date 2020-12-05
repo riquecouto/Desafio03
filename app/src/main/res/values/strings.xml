@@ -9,4 +9,8 @@
     <string name="prompt_name">Name</string>
     <string name="action_save">SAVE</string>
     <string name="dummy_comic">#100</string>
+    <string name="ac_details_pages">Pages: </string>
+    <string name="ac_details_price">Price: $</string>
+    <string name="ac_details_published">Published: </string>
+    <string name="dummy_text">XXXXXXXXX</string>
 </resources>
